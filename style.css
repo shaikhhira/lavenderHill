@@ -1,0 +1,176 @@
+*{
+    margin: 0;padding: 0;
+}
+ul li a:hover{
+    text-decoration: none;color: #8DBF39;
+}
+.navbar{
+    background-color:#6B9B1E ;
+}
+.nav-item a, .navbar a{
+    color: white;
+}
+.navbar img{
+    width: 50px;height: 50px;
+}
+.nav-item a{
+    font-size: 20px;font-weight: 400;
+}
+.navbar-toggler{
+   border: 1px solid white;
+}
+.breadcrumb a{
+    color: #6B9B1E;
+}
+.section, .section img{
+    text-align: center;margin-top: 50px;
+}
+
+.section h3{
+    text-shadow: 1px 1px 3px #6B9B1E;color: #6B9B1E;margin-bottom: 40px;
+}
+.ser{
+    text-align: center;
+}
+.ser p{
+    margin-top: 30px;
+}
+.ser img{
+    width: 50px;height: 50px;
+}
+.card-body .btn{
+    background-color:#6B9B1E ;border: 2px solid #6B9B1E;color: white;
+}
+.footer{
+    background-color:#8DBF39 ;margin-top: 100px;position: relative;
+}
+.footer .footer-item{
+    margin-top: 40px;text-align: center;
+}
+.social-link a span{
+    font-size: 40px;margin-top: 70px;color: white; 
+}
+.footer-item h4,.footer-item p , .footer-item i{
+    color: white;font-weight: 600;
+}
+.copyright-text{
+    text-align: center;color: white;color: #6B9B1E ;font-weight: 700;
+}
+
+
+/* abput us */
+.head img{
+    margin: 0;padding: 0;width: 100%;
+}
+.about h1, .about p, .team h1, .team img {
+    text-align: center;margin-top: 60px;justify-content: center;
+}
+.about h1{
+    color: #6B9B1E;text-shadow: 1px 1px 3px #6B9B1E
+}
+.team h1{
+    color: #6B9B1E;text-shadow: 1px 1px 3px #6B9B1E
+}
+.team h4{
+    margin-top: 30px; color: #6B9B1E;text-shadow: 1px 1px 3px #6B9B1E
+}
+.mission{
+    margin-top: 70px;
+}
+.mission h1{
+    color: #6B9B1E;text-shadow: 1px 1px 3px #6B9B1E
+}
+.team .personal-link{
+   position: absolute;
+}
+.personal-link a {
+   text-decoration: none;
+}
+.personal-link a span {
+    font-size: 30px;color: #6B9B1E;margin: 5px 5px;
+}
+.personal-link a span:hover{
+    color: gray;font-size: 40px;
+}
+
+/* blog */
+.blogs-head h1{
+    text-align: center;margin-top: 60px;
+}
+.blogs-head h1{
+    color: #6B9B1E;text-shadow: 1px 1px 3px #6B9B1E
+}
+.best_blog{
+    margin-top: 60px;
+}
+.blog{
+    margin-top: 30px;
+}
+.other_blog {
+    margin-top: 60px;
+}
+.other_blog .nav-link{
+    color: black;
+}
+.other_blog .nav-link.active{
+    color: #6B9B1E;
+}
+.tab-pane{
+    margin-top: 20px;
+}
+/* contact */
+.map{
+    height: 500px;
+}
+.contact-form{
+    margin: 20px 20px;
+}
+.contact-form input, .contact-form textarea{
+    width: 100%;margin: 20px 20px;border: 2px solid #6B9B1E;
+}
+.contact-form input:focus, .contact-form textarea:focus{
+    width: 100%;margin: 20px 20px;
+}
+.contact-form .subBtn{
+    text-align: right;text-decoration: none;margin: 20px 20px;
+}
+.subBtn a{
+    background-color: #6B9B1E;color: white;padding: 15px 15px;font-size: 20px;font-weight: 400;border-radius: 20px;
+}
+.subBtn a:hover{
+    padding: 18px 18px;
+}
+.contact-form h2{
+    margin: 10px 10px;margin-left: 20px;color: #6B9B1E;
+}
+/* modal */
+.modal .modal-body h1{
+    text-align: center;justify-content: center;color: #6B9B1E;text-shadow: 1px 1px 3px #6B9B1E
+}
+table{
+    text-align: center;margin: 20px 20px;padding: 20px 20px;justify-content: center;
+}
+table th{
+    font-size: 30px;margin-left: 30px;padding: 20px 20px;color: #6B9B1E;
+}
+table td{
+    font-size: 20px;color: #8DBF39;
+}
+
+@media(max-width:991px){
+    .nav .price{
+        background-color: red;
+    }
+  }
+  @media(max-width:780
+  px){
+    body .price{
+        display: none;
+    }
+  }
+  @media(max-width:575px){
+    body .price{
+        display: none;
+    }
+  }
+  
