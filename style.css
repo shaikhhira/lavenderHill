@@ -29,7 +29,11 @@ ul li a:hover{
 .section h3{
     text-shadow: 1px 1px 3px #6B9B1E;color: #6B9B1E;margin-bottom: 40px;
 }
-.ser{
+
+.welModal img, .fa-check-circle{
+    color: #6B9B1E;width: 90px;height: 90px;align-content: center;margin-bottom: 30px;
+}
+.ser, .welModal{
     text-align: center;
 }
 .ser p{
